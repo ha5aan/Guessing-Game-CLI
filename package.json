@@ -1,0 +1,24 @@
+{
+  "name": "guessing-game-metaverse",
+  "version": "1.0.2",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "files": ["dest"],
+  "scripts": {
+    "dev": "node src/app.ts",
+    "start": "node dest/app.js",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.10",
+    "nanospinner": "^1.1.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "inquirer": "^9.1.4"
+  }
+}
